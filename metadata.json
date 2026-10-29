@@ -1,0 +1,6 @@
+{
+  "name": "Vibrant Academic Pulse - Portal Siswa & Rapor SD",
+  "description": "Portal pelacak akademik, buku nilai Kurikulum Merdeka, rapor cepat, dan papan prestasi siswa SD Boalemo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,224 @@
+---
+name: Vibrant Academic Pulse
+colors:
+  surface: '#fdf7ff'
+  surface-dim: '#ded6f1'
+  surface-bright: '#fdf7ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f7f1ff'
+  surface-container: '#f2ebff'
+  surface-container-high: '#ece4ff'
+  surface-container-highest: '#e7dff9'
+  on-surface: '#1d192c'
+  on-surface-variant: '#4a4452'
+  inverse-surface: '#322e42'
+  inverse-on-surface: '#f5eeff'
+  outline: '#7b7483'
+  outline-variant: '#ccc3d4'
+  surface-tint: '#6f46b9'
+  primary: '#340075'
+  on-primary: '#ffffff'
+  primary-container: '#4c1d95'
+  on-primary-container: '#b994ff'
+  inverse-primary: '#d3bbff'
+  secondary: '#625595'
+  on-secondary: '#ffffff'
+  secondary-container: '#c6b7ff'
+  on-secondary-container: '#524584'
+  tertiary: '#52002f'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#7a0047'
+  on-tertiary-container: '#ff7bb4'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ebdcff'
+  primary-fixed-dim: '#d3bbff'
+  on-primary-fixed: '#260059'
+  on-primary-fixed-variant: '#572ba0'
+  secondary-fixed: '#e7deff'
+  secondary-fixed-dim: '#ccbeff'
+  on-secondary-fixed: '#1e0e4e'
+  on-secondary-fixed-variant: '#4a3d7c'
+  tertiary-fixed: '#ffd9e4'
+  tertiary-fixed-dim: '#ffb0cd'
+  on-tertiary-fixed: '#3e0022'
+  on-tertiary-fixed-variant: '#8c0053'
+  background: '#fdf7ff'
+  on-background: '#1d192c'
+  surface-variant: '#e7dff9'
+typography:
+  display-hero:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 40px
+    fontWeight: '800'
+    lineHeight: 48px
+  display-hero-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '800'
+    lineHeight: 36px
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+  headline-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '700'
+    lineHeight: 32px
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 22px
+    fontWeight: '700'
+    lineHeight: 28px
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 26px
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 22px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 18px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.5px
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.25rem
+  gutter-mobile: 0.75rem
+  margin: 2rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.25rem
+---
+
+## Brand & Style
+
+This design system expresses a forward-looking, cheerful, and digitally capable academic identity tailored for an Indonesian primary education environment. The aesthetic balances pedagogical trust with lively, youth-centered joy.
+
+- **Audience & Context:** Primary school educators, young pupils, school administrators, and parents interacting with primary school academic tracking and student growth portals in Boalemo, Gorontalo.
+- **Tone:** Energetic (*semangat*), nurturing, approachable, and cleanly structured. It avoids rigid institutional bureaucracy in favor of encouraging, modern digital interfaces.
+- **Design Style:** A contemporary fusion of **Soft Neomorphic Minimalism** and **Vibrant Playful Materialism**. Interfaces feature generous rounded forms, tactile pill-like micro-interactions, soft pastel tonal planes, and punchy saturated accents that spark curiosity and engagement while preserving absolute clarity for data entry and reading.
+- **Language Default:** All copy, actions, validation patterns, and navigational anchors default to localized, natural Bahasa Indonesia.
+
+## Colors
+
+The palette leverages a rich royal violet core layered against luminous pastels and crisp supportive status hues.
+
+- **Primary Tones:** `#4C1D95` serves as the anchor for structural bars, major brand elements, primary CTAs, and high-emphasis focal nodes. Tinted variations (`#EDE9FE` and `#C4B5FD`) handle secondary container backgrounds, pill highlights, and hover transitions.
+- **Luminance & Sky Accents:** `#7DD3FC` and its soft tint `#E0F2FE` deliver breathing room, representing collaborative spaces, student profiles, and interactive badges.
+- **Playful Energy:** `#EC4899` with background counterpart `#F9A8D4` functions as a celebration accent—used for achievements, reward badges, notices, and dynamic visual markers.
+- **Canvas & Neutral Surfaces:** The base viewport canvas rests on `#FAF9FF`. Card surfaces sit elevated on `#FFFFFF`. High-priority text and typography use `#1F1B2E`, while helper labels and secondary details utilize `#6B6880`.
+- **System States:**
+  - *Berhasil / Sukses (Success):* `#22C55E`
+  - *Peringatan (Warning):* `#F59E0B`
+  - *Kendala / Batal (Critical):* `#EF4444`
+  - *Informasi (Info):* `#38BDF8`
+
+## Typography
+
+The typographic hierarchy combines the open, friendly geometry of **Plus Jakarta Sans** with the dense, functional legibility of **Inter**.
+
+- **Display & Headings:** Plus Jakarta Sans delivers warm curves and structural clarity. Headings maintain tighter line-heights and pronounced weights (600–800) to create clear content landmarks for rapid scanning by teachers and students alike.
+- **Body & Data:** Inter handles form inputs, student report tables, narrative evaluation paragraphs, and meta descriptions. It ensures maximum readability across varying hardware displays, especially on mobile devices and budget laptops.
+- **Labels & Microcopy:** Badges, navigation tabs, button titles, and metric counters leverage Plus Jakarta Sans (Semibold to Bold) for punchy execution in compact spaces.
+
+## Layout & Spacing
+
+Layouts follow an adaptable 12-column responsive fluid grid designed to accommodate both dense desktop administrative dashboards and touch-first mobile interfaces for parents and field staff.
+
+- **Breakpoints:**
+  - `Mobile (< 768px):` 4-column layout, outer margin `1rem`, gutter `0.75rem`. Cards and table views reflow into vertical summary cards.
+  - `Tablet (768px - 1024px):` 8-column layout, outer margin `1.5rem`, gutter `1rem`. Dual-column content zones.
+  - `Desktop (> 1024px):` 12-column layout, max content container `1280px`, outer margin `2rem`, gutter `1.25rem`.
+- **Rhythm & Flow:** Elements leverage an 8pt base grid logic (`0.25rem`, `0.5rem`, `1rem`, `1.5rem`, `2.25rem`). Component cards prioritize spacious inner paddings (`space-lg` on desktop, `space-md` on mobile) to eliminate cognitive strain during student record reviews.
+
+## Elevation & Depth
+
+Visual depth is produced using delicate violet-tinted atmospheric ambient shadows combined with tonal layering, rather than harsh, generic grey drop shadows.
+
+- **Layer 0 (Canvas):** Flat base surface rendered in `#FAF9FF`.
+- **Layer 1 (Card Surfaces):** Pure `#FFFFFF` surfaces paired with a soft ambient shadow: `0 4px 20px -2px rgba(76, 29, 149, 0.05)`. Rimmed with an optional delicate border `rgba(196, 181, 253, 0.35)`.
+- **Layer 2 (Floating & Interactive Elevates):** Hovered cards, interactive score items, and floating toolbars use `0 10px 25px -4px rgba(76, 29, 149, 0.09)`.
+- **Layer 3 (Modals & Drawers):** High-priority overlays (e.g., student detail sheets, confirm modals) use `0 20px 40px -6px rgba(31, 27, 46, 0.16)` with a backdrop blur `blur(8px)` tinted with `rgba(31, 27, 46, 0.4)`.
+
+## Shapes
+
+The geometric vocabulary prioritizes organic friendliness, soft touchpoints, and approachable rounded corners that feel gentle and inviting to young learners.
+
+- **Cards & Major Panels:** Built with generous corner curvatures spanning `16px` (`rounded-lg`) up to `24px` (`rounded-xl`).
+- **Interactive Controls:** Buttons, input shells, dropdown triggers, and status badges utilize consistent `12px` to `16px` boundaries or full pill capsules (`rounded-full`) for chips and indicators.
+- **Decorative Accents:** Sub-containers and icon backgrounds feature squircle geometries or circular badges that soften data-heavy metrics.
+
+## Components
+
+### Tombol (Buttons)
+- **Primer (Primary):** Solid `#4C1D95` background, `#FFFFFF` text, `rounded-xl` (12px), active state features subtle scaling (`transform: scale(0.98)`). Glow focus rings use `rgba(196, 181, 253, 0.5)`.
+- **Sekunder (Secondary):** Tinted background `#EDE9FE`, text `#4C1D95`, borderless. Hover shifts to `#C4B5FD` with deepened contrast.
+- **Aksen Ceria (Accent / Reward):** Solid `#EC4899`, white text, designated for celebration actions, point awards, or interactive assignments.
+- **Garis Luar (Outline):** 1.5px border `#C4B5FD`, transparent fill, `#4C1D95` label text.
+
+### Kartu Siswa & Konten (Cards)
+- Solid `#FFFFFF` background, `20px` to `24px` border radius (`rounded-xl`), inner padding `space-lg`.
+- Highlight headers feature a soft gradient accent line or pastel banner tint (`#E0F2FE` or `#EDE9FE`).
+- Metric cards showcase high-contrast figures set in *Plus Jakarta Sans Bold*, accompanied by miniature iconography encased in squircle pastel containers.
+
+### Kolom Input (Input Fields & Dropdowns)
+- Flat surface `#FFFFFF`, bordered by 1.5px `#EDE9FE`.
+- Corner curvature at `12px`. Inner padding `0.75rem 1rem`.
+- Focus state activates an outline border `#4C1D95` and an outer ring of `0 0 0 4px rgba(125, 211, 252, 0.35)`.
+- Helper captions and validation error text appear in Inter `body-sm` (`#EF4444` for invalid input, `#22C55E` for valid confirmations).
+
+### Lencana & Filter (Chips & Badges)
+- Pill-shaped (`rounded-full`) with horizontal padding `0.75rem` and vertical padding `0.25rem`.
+- **Status Akademik:**
+  - *Lengkap / Aktif:* `#22C55E` background tint at 15%, solid text `#15803D`.
+  - *Perlu Perhatian:* `#F59E0B` tint at 15%, solid text `#B45309`.
+  - *Tugas Baru:* `#E0F2FE` background, text `#0369A1`.
+  - *Prestasi:* `#FCE7F3` background, text `#BE185D`.
+
+### Pilihan Interaktif (Checkboxes & Radio Buttons)
+- 20px size with rounded edges (`6px` for checkboxes, circular for radios).
+- Inactive state: `#FFFFFF` fill with `1.5px` border `#C4B5FD`.
+- Checked state: Filled with primary `#4C1D95` containing a white check or inner dot, snapping into view via an elastic transition.
+
+### Komponen Khas: Papan Prestasi & Rapor Cepat (Quick Report Widgets)
+- Compact progress meters with dual-color energetic fills (`#4C1D95` to `#EC4899` gradient tracks).
+- Integrated student avatar tokens rimmed with multi-color pastel rings denoting academic badges and extracurricular participation.

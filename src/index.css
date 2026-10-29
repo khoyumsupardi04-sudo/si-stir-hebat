@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+
+  --color-brand-primary: #4C1D95;
+  --color-brand-primary-dark: #340075;
+  --color-brand-primary-light: #EDE9FE;
+  --color-brand-primary-tint: #C4B5FD;
+
+  --color-brand-accent: #EC4899;
+  --color-brand-accent-light: #FCE7F3;
+  --color-brand-accent-border: #F9A8D4;
+
+  --color-brand-sky: #7DD3FC;
+  --color-brand-sky-light: #E0F2FE;
+
+  --color-brand-canvas: #FAF9FF;
+  --color-brand-surface: #FFFFFF;
+  --color-brand-text: #1F1B2E;
+  --color-brand-text-muted: #6B6880;
+
+  --color-brand-success: #22C55E;
+  --color-brand-warning: #F59E0B;
+  --color-brand-error: #EF4444;
+  --color-brand-info: #38BDF8;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #FAF9FF;
+  color: #1F1B2E;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: var(--font-display);
+}
+
+/* Custom soft violet ambient shadows per design spec */
+.shadow-academic-sm {
+  box-shadow: 0 4px 20px -2px rgba(76, 29, 149, 0.05);
+}
+
+.shadow-academic-md {
+  box-shadow: 0 10px 25px -4px rgba(76, 29, 149, 0.09);
+}
+
+.shadow-academic-lg {
+  box-shadow: 0 20px 40px -6px rgba(31, 27, 46, 0.16);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F1FF;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4B5FD;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A78BFA;
+}
+
+@media print {
+  body {
+    background: #FFFFFF !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}
